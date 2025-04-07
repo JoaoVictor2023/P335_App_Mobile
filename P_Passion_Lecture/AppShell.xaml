@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="P_Passion_Lecture.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:P_Passion_Lecture"
+    Shell.FlyoutBehavior="Disabled"
+    Title="P_Passion_Lecture">
+
+
+    <Tab Title="Home">
+        <ShellContent
+            Icon="book.svg"
+            Title="Passion Lecture"
+            ContentTemplate="{DataTemplate local:MainPage}"
+            Route="MainPage" />
+    </Tab>
+
+    <Tab Title="Liste des livres">
+        <ShellContent
+            Icon="book.svg"
+            Title="Passion Lecture"
+            ContentTemplate="{DataTemplate local:listBook}"
+            Route="MainPage" />
+    </Tab>
+
+</Shell>
