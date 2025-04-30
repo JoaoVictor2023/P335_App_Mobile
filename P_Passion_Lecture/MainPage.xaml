@@ -1,8 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="P_Passion_Lecture.MainPage">
+             x:Class="P_Passion_Lecture.MainPage"
+             >
 
+    
     <ScrollView>
         <VerticalStackLayout
             Padding="30,0"
@@ -11,46 +13,57 @@
 
             <Label Text="BIENVENUE" TextColor="#D5B895" FontSize="64" FontFamily="Lobster-Regular" HorizontalTextAlignment="Center"/>
 
-            <SearchBar BackgroundColor="#D5B895" Placeholder="Search tags..." />
+            <SearchBar BackgroundColor="#D5B895" Placeholder="Search books..." />
 
             <Label Text="Livres populaires:" TextColor="#ffffff" FontSize="16" FontFamily="Lobster-Regular" HorizontalTextAlignment="Start"/>
 
+            <ScrollView Orientation="Horizontal">
+                <Grid ColumnSpacing="30">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="146"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="146"/>
+                        <ColumnDefinition Width="146"/>
+                        <ColumnDefinition Width="146"/>
+                        <ColumnDefinition Width="146"/>
+                        <ColumnDefinition Width="146"/>
+                    </Grid.ColumnDefinitions>
 
-            <Grid ColumnSpacing="30">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="146"/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="146"/>
-                    <ColumnDefinition Width="146"/>
-                    <ColumnDefinition Width="146"/>
-                </Grid.ColumnDefinitions>
+                    <Frame BackgroundColor="#D5B895" Grid.Column="0" Grid.Row="0">
+                        <Image Source="dotnet_bot.png"/>
+                    </Frame>
 
-                <Frame BackgroundColor="#D5B895" Grid.Column="0" Grid.Row="0">
-                    <Image Source="dotnet_bot.png"/>
-                </Frame>
+                    <Frame BackgroundColor="#D5B895" Grid.Column="1" >
+                                                <Image Source="dotnet_bot.png"/>
+                    </Frame>
 
-                <Frame BackgroundColor="#D5B895" Grid.Column="1" >
-                    <Image/>
-                </Frame>
+                    <Frame BackgroundColor="#D5B895" Grid.Column="2" >
+                                                <Image Source="dotnet_bot.png"/>
+                    </Frame>
 
-                <Frame BackgroundColor="#D5B895" Grid.Column="3" >
-                    <Image/>
-                </Frame>
-            </Grid>
+                    <Frame BackgroundColor="#D5B895" Grid.Column="3" >
+                                                <Image Source="dotnet_bot.png"/>
+                    </Frame>
+
+                    <Frame BackgroundColor="#D5B895" Grid.Column="4" >
+                                                <Image Source="dotnet_bot.png"/>
+                    </Frame>
+                </Grid>
+            </ScrollView>   
 
             <Label Text="Catégories populaires:" TextColor="#ffffff" FontSize="16" FontFamily="Lobster-Regular" HorizontalTextAlignment="Start"/>
 
             <FlexLayout Wrap="Wrap" Direction="Row">
 
 
-                <Label BackgroundColor="#D5B895" Padding="10,5,10,5" Text="Fiction Fantastique" Margin="0,0, 17,9" TextColor="Black"></Label>
-                <Label BackgroundColor="#D5B895" Padding="10,5,10,5" Text="Romance" Margin="0,0, 17,9" TextColor="Black"></Label>
-                <Label BackgroundColor="#D5B895" Padding="10,5,10,5" Text="Mystère et suspense" Margin="0,0, 17,9" TextColor="Black"></Label>
-                <Label BackgroundColor="#D5B895" Padding="10,5,10,5" Text="Horreur" Margin="0,0, 17,9" TextColor="Black"></Label>
-                <Label BackgroundColor="#D5B895" Padding="10,5,10,5" Text="Science et technologie" Margin="0,0, 17,9" TextColor="Black"></Label>
-                <Label BackgroundColor="#D5B895" Padding="10,5,10,5" Text="Aventure" Margin="0,0, 17,9" TextColor="Black"></Label>
-                <Label BackgroundColor="#D5B895" Padding="10,5,10,5" Text="Développement personnel" Margin="0,0, 17,9" TextColor="Black"></Label>
+                <Label BackgroundColor="#D5B895" Padding="10,5,10,5" Text="{Binding FictionFantastique}" Margin="0,0, 17,9" TextColor="Black"></Label>
+                <Label BackgroundColor="#D5B895" Padding="10,5,10,5" Text="{Binding Romance}" Margin="0,0, 17,9" TextColor="Black"></Label>
+                <Label BackgroundColor="#D5B895" Padding="10,5,10,5" Text="{Binding MystereSuspence}" Margin="0,0, 17,9" TextColor="Black"></Label>
+                <Label BackgroundColor="#D5B895" Padding="10,5,10,5" Text="{Binding Horreur}" Margin="0,0, 17,9" TextColor="Black"></Label>
+                <Label BackgroundColor="#D5B895" Padding="10,5,10,5" Text="{Binding ScienceTechnologie}" Margin="0,0, 17,9" TextColor="Black"></Label>
+                <Label BackgroundColor="#D5B895" Padding="10,5,10,5" Text="{Binding Aventure}" Margin="0,0, 17,9" TextColor="Black"></Label>
+                <Label BackgroundColor="#D5B895" Padding="10,5,10,5" Text="{Binding DeveloppementPersonnel}" Margin="0,0, 17,9" TextColor="Black"></Label>
 
 
             </FlexLayout>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kPS2WZE4Wac=",
+  "dgSpecHash": "H6O4jjsHdM8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\pg05lby\\source\\repos\\P_Passion_Lecture\\P_Passion_Lecture.csproj",
+  "projectFilePath": "C:\\Users\\pg05lby\\Documents\\GitHub\\P335_App_Mobile\\P_Passion_Lecture\\P_Passion_Lecture.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pg05lby\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\pg05lby\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pg05lby\\source\\repos\\P_Passion_Lecture\\P_Passion_Lecture.csproj": {}
+    "C:\\Users\\pg05lby\\Documents\\GitHub\\P335_App_Mobile\\P_Passion_Lecture\\P_Passion_Lecture.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pg05lby\\source\\repos\\P_Passion_Lecture\\P_Passion_Lecture.csproj": {
+    "C:\\Users\\pg05lby\\Documents\\GitHub\\P335_App_Mobile\\P_Passion_Lecture\\P_Passion_Lecture.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pg05lby\\source\\repos\\P_Passion_Lecture\\P_Passion_Lecture.csproj",
+        "projectUniqueName": "C:\\Users\\pg05lby\\Documents\\GitHub\\P335_App_Mobile\\P_Passion_Lecture\\P_Passion_Lecture.csproj",
         "projectName": "P_Passion_Lecture",
-        "projectPath": "C:\\Users\\pg05lby\\source\\repos\\P_Passion_Lecture\\P_Passion_Lecture.csproj",
+        "projectPath": "C:\\Users\\pg05lby\\Documents\\GitHub\\P335_App_Mobile\\P_Passion_Lecture\\P_Passion_Lecture.csproj",
         "packagesPath": "C:\\Users\\pg05lby\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pg05lby\\source\\repos\\P_Passion_Lecture\\obj\\",
+        "outputPath": "C:\\Users\\pg05lby\\Documents\\GitHub\\P335_App_Mobile\\P_Passion_Lecture\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
