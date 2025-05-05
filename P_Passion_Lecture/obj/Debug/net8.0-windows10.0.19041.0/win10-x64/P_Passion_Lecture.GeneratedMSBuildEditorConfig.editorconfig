@@ -24,6 +24,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = P_Passion_Lecture.AppShell
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
+[C:/Users/pg05lby/Documents/GitHub/P335_App_Mobile/P_Passion_Lecture/CreateBook.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = P_Passion_Lecture.CreateBook.xaml
+build_metadata.AdditionalFiles.TargetPath = CreateBook.xaml
+build_metadata.AdditionalFiles.RelativePath = CreateBook.xaml
+
 [C:/Users/pg05lby/Documents/GitHub/P335_App_Mobile/P_Passion_Lecture/listBook.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = P_Passion_Lecture.listBook.xaml

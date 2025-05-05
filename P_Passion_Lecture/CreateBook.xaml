@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="P_Passion_Lecture.CreateBook"
+             xmlns:viewModels="clr-namespace:P_Passion_Lecture.ViewModels"
+             Title="Ajout de livre">
+
+
+    <ContentPage.BindingContext>
+        <viewModels:CrudViewModel/>
+    </ContentPage.BindingContext>
+
+    <VerticalStackLayout>
+        <Label 
+            Text="Sur cette page, tu pourras créer un livre!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <VerticalStackLayout Padding="20">
+            <Entry Placeholder="Title" Text="{Binding TitleEntry}" />
+            <Entry Placeholder="Categorie" Text="{Binding CategorieEntry}" />
+            <Entry Placeholder="Author" Text="{Binding AuthorEntry}" />
+            <Entry Placeholder="Editeur" Text="{Binding EditeurEntry}" />
+            <Entry Placeholder="Resume" Text="{Binding ResumeEntry}" />
+            <Entry Placeholder="Extrait" Text="{Binding ExtraitEntry}" />
+            <Entry Keyboard="Numeric" Text="{Binding AnneeEntry}" />
+            <Entry Keyboard="Numeric" Text="{Binding NbPagesEntry}" />
+            <Button Margin="0,10,0,20" Text="Choisir image" Clicked="OnPickImageClicked" />
+
+
+            <HorizontalStackLayout>
+                <Image x:Name="myImage" WidthRequest="200" HeightRequest="200" />
+
+                <Button Text="SupprimerImage" Clicked="OnRemoveImageClicked" />
+                
+            </HorizontalStackLayout>
+            
+            
+            <Button Margin="0,20,0,0" Text="Ajouter" Command="{Binding AddBookCommand}" />
+
+            <Label Text="Questions / Réponses" FontAttributes="Bold" Margin="0,10,0,0"/>
+
+            
+
+
+
+        </VerticalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>

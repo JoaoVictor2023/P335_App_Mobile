@@ -6,4 +6,8 @@ public partial class listBook : ContentPage
 	{
 		InitializeComponent();
 	}
+    private async void CreateBook(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new CreateBook());
+    }
 }

@@ -2,9 +2,60 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="P_Passion_Lecture.listBook"
-             Title="listBook">
-    <VerticalStackLayout
-        BackgroundColor= "#1C1F26">
-        
+             xmlns:viewModels="clr-namespace:P_Passion_Lecture.ViewModels"
+             Title="Liste des livres">
+
+    <!-- Configurando o BindingContext com o ViewModel -->
+    <ContentPage.BindingContext>
+        <viewModels:CrudViewModel />
+    </ContentPage.BindingContext>
+
+    <VerticalStackLayout BackgroundColor="#1C1F26">
+
+        <Button
+            x:Name="AddBook"
+            Text="Ajout de livre"
+            Clicked="CreateBook"/>
+
+        <CollectionView ItemsSource="{Binding Books}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame CornerRadius="15"
+                           Margin="10"
+                           BackgroundColor="{StaticResource Black}"
+                           BorderColor="{StaticResource White}"
+                           HasShadow="True">
+                        <Grid>
+                            <Grid.GestureRecognizers>
+                                <TapGestureRecognizer 
+                                    Command="{Binding Source={RelativeSource AncestorType={x:Type viewModels:CrudViewModel}}, Path=FlipCardCommand}"
+                                    CommandParameter="{Binding .}" />
+                            </Grid.GestureRecognizers>
+
+                            <ContentView x:Name="CardView">
+                                <Grid>
+                                    <Label x:Name="FrontText"
+                                           Text="{Binding Title}" 
+                                        FontAttributes="Bold"
+                                           TextColor="White"
+                                           HorizontalOptions="Center"
+                                           VerticalOptions="Center"
+                                           IsVisible="{Binding IsFlipped, Converter={StaticResource InverseBoolConverter}}" />
+
+                                        <!-- Exibição do verso do cartão (resposta) -->
+                                        <Label x:Name="BackText"
+                                           Text="{Binding Author}"
+                                            TextColor="White"
+                                           HorizontalOptions="Center"
+                                           VerticalOptions="Center"
+                                           IsVisible="{Binding IsFlipped}" />
+                                </Grid>
+                            </ContentView>
+                        </Grid>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
     </VerticalStackLayout>
 </ContentPage>
