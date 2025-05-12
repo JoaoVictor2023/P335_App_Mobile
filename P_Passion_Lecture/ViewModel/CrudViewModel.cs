@@ -111,5 +111,45 @@ namespace P_Passion_Lecture.ViewModels
                    !string.IsNullOrWhiteSpace(extraitEntry) &&
                    !string.IsNullOrWhiteSpace(categorieEntry);
         }
+        [RelayCommand]
+        private async void DeleteBook(BookEntry book)
+        {
+            if (book == null)
+                return;
+
+            books.Remove(book);
+
+            using (var context = new AppDbContext())
+            {
+                context.Books.Remove(book);
+                await context.SaveChangesAsync();
+            }
+        }
+
+        [RelayCommand]
+        private async void EditBook(BookEntry book)
+        {
+            // Exemplo de edição: pode abrir uma nova page ou exibir um popup para editar os dados
+            await Shell.Current.DisplayAlert("Modifier", $"Tu veux modifier: {book.Title}", "OK");
+
+            // Aqui tu pode abrir uma tela de edição passando o livro como parâmetro
+            // Ex: await Shell.Current.GoToAsync($"editpage?bookId={book.Id}");
+        }
+
+        public async void ReloadBooks()
+        {
+            Books.Clear();
+
+            using (var context = new AppDbContext())
+            {
+                var existingBooks = await context.Books.ToListAsync();
+                foreach (var book in existingBooks)
+                {
+                    Books.Add(book);
+                }
+            }
+        }
+
+
     }
 }

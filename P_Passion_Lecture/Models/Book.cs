@@ -2,7 +2,7 @@
 
 namespace P_Passion_Lecture.Models
 {
-    public partial class BookEntry
+    public partial class BookEntry : ObservableObject
     {
         public int Id { get; set; }
         public string Title { get; set; }

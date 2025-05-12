@@ -7,32 +7,16 @@
       "RelativeMoniker": "D:0:0:{EBEAEC71-CBBB-4F86-91E3-0591C0A8140E}|P_Passion_Lecture.csproj|solutionrelative:listbook.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBEAEC71-CBBB-4F86-91E3-0591C0A8140E}|P_Passion_Lecture.csproj|c:\\users\\pg05lby\\documents\\github\\p335_app_mobile\\p_passion_lecture\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{EBEAEC71-CBBB-4F86-91E3-0591C0A8140E}|P_Passion_Lecture.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{EBEAEC71-CBBB-4F86-91E3-0591C0A8140E}|P_Passion_Lecture.csproj|c:\\users\\pg05lby\\documents\\github\\p335_app_mobile\\p_passion_lecture\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBEAEC71-CBBB-4F86-91E3-0591C0A8140E}|P_Passion_Lecture.csproj|solutionrelative:models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EBEAEC71-CBBB-4F86-91E3-0591C0A8140E}|P_Passion_Lecture.csproj|c:\\users\\pg05lby\\documents\\github\\p335_app_mobile\\p_passion_lecture\\listbook.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EBEAEC71-CBBB-4F86-91E3-0591C0A8140E}|P_Passion_Lecture.csproj|solutionrelative:listbook.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBEAEC71-CBBB-4F86-91E3-0591C0A8140E}|P_Passion_Lecture.csproj|c:\\users\\pg05lby\\documents\\github\\p335_app_mobile\\p_passion_lecture\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBEAEC71-CBBB-4F86-91E3-0591C0A8140E}|P_Passion_Lecture.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBEAEC71-CBBB-4F86-91E3-0591C0A8140E}|P_Passion_Lecture.csproj|c:\\users\\pg05lby\\documents\\github\\p335_app_mobile\\p_passion_lecture\\createbook.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBEAEC71-CBBB-4F86-91E3-0591C0A8140E}|P_Passion_Lecture.csproj|solutionrelative:createbook.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBEAEC71-CBBB-4F86-91E3-0591C0A8140E}|P_Passion_Lecture.csproj|c:\\users\\pg05lby\\documents\\github\\p335_app_mobile\\p_passion_lecture\\createbook.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{EBEAEC71-CBBB-4F86-91E3-0591C0A8140E}|P_Passion_Lecture.csproj|solutionrelative:createbook.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBEAEC71-CBBB-4F86-91E3-0591C0A8140E}|P_Passion_Lecture.csproj|c:\\users\\pg05lby\\documents\\github\\p335_app_mobile\\p_passion_lecture\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBEAEC71-CBBB-4F86-91E3-0591C0A8140E}|P_Passion_Lecture.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EBEAEC71-CBBB-4F86-91E3-0591C0A8140E}|P_Passion_Lecture.csproj|c:\\users\\pg05lby\\documents\\github\\p335_app_mobile\\p_passion_lecture\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{EBEAEC71-CBBB-4F86-91E3-0591C0A8140E}|P_Passion_Lecture.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{EBEAEC71-CBBB-4F86-91E3-0591C0A8140E}|P_Passion_Lecture.csproj|c:\\users\\pg05lby\\documents\\github\\p335_app_mobile\\p_passion_lecture\\viewmodel\\crudviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBEAEC71-CBBB-4F86-91E3-0591C0A8140E}|P_Passion_Lecture.csproj|solutionrelative:viewmodel\\crudviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EBEAEC71-CBBB-4F86-91E3-0591C0A8140E}|P_Passion_Lecture.csproj|c:\\users\\pg05lby\\documents\\github\\p335_app_mobile\\p_passion_lecture\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,16 +27,36 @@
       "RelativeMoniker": "D:0:0:{EBEAEC71-CBBB-4F86-91E3-0591C0A8140E}|P_Passion_Lecture.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBEAEC71-CBBB-4F86-91E3-0591C0A8140E}|P_Passion_Lecture.csproj|c:\\users\\pg05lby\\documents\\github\\p335_app_mobile\\p_passion_lecture\\viewmodel\\crudviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBEAEC71-CBBB-4F86-91E3-0591C0A8140E}|P_Passion_Lecture.csproj|solutionrelative:viewmodel\\crudviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EBEAEC71-CBBB-4F86-91E3-0591C0A8140E}|P_Passion_Lecture.csproj|c:\\users\\pg05lby\\documents\\github\\p335_app_mobile\\p_passion_lecture\\createbook.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBEAEC71-CBBB-4F86-91E3-0591C0A8140E}|P_Passion_Lecture.csproj|solutionrelative:createbook.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBEAEC71-CBBB-4F86-91E3-0591C0A8140E}|P_Passion_Lecture.csproj|c:\\users\\pg05lby\\documents\\github\\p335_app_mobile\\p_passion_lecture\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBEAEC71-CBBB-4F86-91E3-0591C0A8140E}|P_Passion_Lecture.csproj|solutionrelative:models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EBEAEC71-CBBB-4F86-91E3-0591C0A8140E}|P_Passion_Lecture.csproj|c:\\users\\pg05lby\\documents\\github\\p335_app_mobile\\p_passion_lecture\\createbook.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EBEAEC71-CBBB-4F86-91E3-0591C0A8140E}|P_Passion_Lecture.csproj|solutionrelative:createbook.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EBEAEC71-CBBB-4F86-91E3-0591C0A8140E}|P_Passion_Lecture.csproj|c:\\users\\pg05lby\\documents\\github\\p335_app_mobile\\p_passion_lecture\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EBEAEC71-CBBB-4F86-91E3-0591C0A8140E}|P_Passion_Lecture.csproj|solutionrelative:models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBEAEC71-CBBB-4F86-91E3-0591C0A8140E}|P_Passion_Lecture.csproj|c:\\users\\pg05lby\\documents\\github\\p335_app_mobile\\p_passion_lecture\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBEAEC71-CBBB-4F86-91E3-0591C0A8140E}|P_Passion_Lecture.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBEAEC71-CBBB-4F86-91E3-0591C0A8140E}|P_Passion_Lecture.csproj|c:\\users\\pg05lby\\documents\\github\\p335_app_mobile\\p_passion_lecture\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EBEAEC71-CBBB-4F86-91E3-0591C0A8140E}|P_Passion_Lecture.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBEAEC71-CBBB-4F86-91E3-0591C0A8140E}|P_Passion_Lecture.csproj|c:\\users\\pg05lby\\documents\\github\\p335_app_mobile\\p_passion_lecture\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBEAEC71-CBBB-4F86-91E3-0591C0A8140E}|P_Passion_Lecture.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBEAEC71-CBBB-4F86-91E3-0591C0A8140E}|P_Passion_Lecture.csproj|c:\\users\\pg05lby\\documents\\github\\p335_app_mobile\\p_passion_lecture\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EBEAEC71-CBBB-4F86-91E3-0591C0A8140E}|P_Passion_Lecture.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBEAEC71-CBBB-4F86-91E3-0591C0A8140E}|P_Passion_Lecture.csproj|c:\\users\\pg05lby\\documents\\github\\p335_app_mobile\\p_passion_lecture\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBEAEC71-CBBB-4F86-91E3-0591C0A8140E}|P_Passion_Lecture.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,38 +66,61 @@
       "DocumentGroups": [
         {
           "DockedWidth": 426,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 8,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\pg05lby\\Documents\\GitHub\\P335_App_Mobile\\P_Passion_Lecture\\Models\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Models\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\pg05lby\\Documents\\GitHub\\P335_App_Mobile\\P_Passion_Lecture\\Models\\AppDbContext.cs",
               "RelativeToolTip": "Models\\AppDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAZAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-05T12:26:21.934Z",
-              "IsPinned": true,
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\pg05lby\\Documents\\GitHub\\P335_App_Mobile\\P_Passion_Lecture\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "C:\\Users\\pg05lby\\Documents\\GitHub\\P335_App_Mobile\\P_Passion_Lecture\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T11:04:23.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\pg05lby\\Documents\\GitHub\\P335_App_Mobile\\P_Passion_Lecture\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "Models\\Book.cs",
+              "ToolTip": "C:\\Users\\pg05lby\\Documents\\GitHub\\P335_App_Mobile\\P_Passion_Lecture\\Models\\Book.cs",
+              "RelativeToolTip": "Models\\Book.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T12:26:09.895Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "AppShell.xaml.cs",
               "DocumentMoniker": "C:\\Users\\pg05lby\\Documents\\GitHub\\P335_App_Mobile\\P_Passion_Lecture\\AppShell.xaml.cs",
               "RelativeDocumentMoniker": "AppShell.xaml.cs",
               "ToolTip": "C:\\Users\\pg05lby\\Documents\\GitHub\\P335_App_Mobile\\P_Passion_Lecture\\AppShell.xaml.cs",
               "RelativeToolTip": "AppShell.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T12:37:11.957Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-05T12:37:11.957Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "AppShell.xaml",
               "DocumentMoniker": "C:\\Users\\pg05lby\\Documents\\GitHub\\P335_App_Mobile\\P_Passion_Lecture\\AppShell.xaml",
               "RelativeDocumentMoniker": "AppShell.xaml",
@@ -101,12 +128,11 @@
               "RelativeToolTip": "AppShell.xaml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-05T12:37:07.104Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-05T12:37:07.104Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\pg05lby\\Documents\\GitHub\\P335_App_Mobile\\P_Passion_Lecture\\App.xaml.cs",
               "RelativeDocumentMoniker": "App.xaml.cs",
@@ -119,7 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\pg05lby\\Documents\\GitHub\\P335_App_Mobile\\P_Passion_Lecture\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
@@ -132,36 +158,17 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Book.cs",
-              "DocumentMoniker": "C:\\Users\\pg05lby\\Documents\\GitHub\\P335_App_Mobile\\P_Passion_Lecture\\Models\\Book.cs",
-              "RelativeDocumentMoniker": "Models\\Book.cs",
-              "ToolTip": "C:\\Users\\pg05lby\\Documents\\GitHub\\P335_App_Mobile\\P_Passion_Lecture\\Models\\Book.cs",
-              "RelativeToolTip": "Models\\Book.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "DocumentIndex": 6,
+              "Title": "CreateBook.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\pg05lby\\Documents\\GitHub\\P335_App_Mobile\\P_Passion_Lecture\\CreateBook.xaml.cs",
+              "RelativeDocumentMoniker": "CreateBook.xaml.cs",
+              "ToolTip": "C:\\Users\\pg05lby\\Documents\\GitHub\\P335_App_Mobile\\P_Passion_Lecture\\CreateBook.xaml.cs",
+              "RelativeToolTip": "CreateBook.xaml.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACIAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T12:26:09.895Z",
+              "WhenOpened": "2025-05-05T11:33:03.568Z",
               "EditorCaption": ""
             },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CrudViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\pg05lby\\Documents\\GitHub\\P335_App_Mobile\\P_Passion_Lecture\\ViewModel\\CrudViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModel\\CrudViewModel.cs",
-              "ToolTip": "C:\\Users\\pg05lby\\Documents\\GitHub\\P335_App_Mobile\\P_Passion_Lecture\\ViewModel\\CrudViewModel.cs",
-              "RelativeToolTip": "ViewModel\\CrudViewModel.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAAowF8AAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T10:51:27.89Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 387,
-          "SelectedChildIndex": 0,
-          "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -170,22 +177,22 @@
               "RelativeDocumentMoniker": "listBook.xaml.cs",
               "ToolTip": "C:\\Users\\pg05lby\\Documents\\GitHub\\P335_App_Mobile\\P_Passion_Lecture\\listBook.xaml.cs",
               "RelativeToolTip": "listBook.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAACAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBQAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-05T11:33:43.989Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CreateBook.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\pg05lby\\Documents\\GitHub\\P335_App_Mobile\\P_Passion_Lecture\\CreateBook.xaml.cs",
-              "RelativeDocumentMoniker": "CreateBook.xaml.cs",
-              "ToolTip": "C:\\Users\\pg05lby\\Documents\\GitHub\\P335_App_Mobile\\P_Passion_Lecture\\CreateBook.xaml.cs",
-              "RelativeToolTip": "CreateBook.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
+              "DocumentIndex": 3,
+              "Title": "CrudViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\pg05lby\\Documents\\GitHub\\P335_App_Mobile\\P_Passion_Lecture\\ViewModel\\CrudViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\CrudViewModel.cs",
+              "ToolTip": "C:\\Users\\pg05lby\\Documents\\GitHub\\P335_App_Mobile\\P_Passion_Lecture\\ViewModel\\CrudViewModel.cs",
+              "RelativeToolTip": "ViewModel\\CrudViewModel.cs",
+              "ViewState": "AQIAAG0AAAAAAAAAAAAiwJcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T11:33:03.568Z",
+              "WhenOpened": "2025-05-05T10:51:27.89Z",
               "EditorCaption": ""
             }
           ]
@@ -196,7 +203,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\pg05lby\\Documents\\GitHub\\P335_App_Mobile\\P_Passion_Lecture\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "MainPage.xaml.cs",
@@ -204,12 +211,11 @@
               "RelativeToolTip": "MainPage.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T12:37:38.189Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-05T12:37:38.189Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Users\\pg05lby\\Documents\\GitHub\\P335_App_Mobile\\P_Passion_Lecture\\MainPage.xaml",
               "RelativeDocumentMoniker": "MainPage.xaml",
@@ -217,8 +223,7 @@
               "RelativeToolTip": "MainPage.xaml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-05T12:37:36.373Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-05T12:37:36.373Z"
             },
             {
               "$type": "Document",
@@ -228,20 +233,20 @@
               "RelativeDocumentMoniker": "listBook.xaml",
               "ToolTip": "C:\\Users\\pg05lby\\Documents\\GitHub\\P335_App_Mobile\\P_Passion_Lecture\\listBook.xaml",
               "RelativeToolTip": "listBook.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAsAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAUwEAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-05-05T11:39:30.003Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "CreateBook.xaml",
               "DocumentMoniker": "C:\\Users\\pg05lby\\Documents\\GitHub\\P335_App_Mobile\\P_Passion_Lecture\\CreateBook.xaml",
               "RelativeDocumentMoniker": "CreateBook.xaml",
               "ToolTip": "C:\\Users\\pg05lby\\Documents\\GitHub\\P335_App_Mobile\\P_Passion_Lecture\\CreateBook.xaml",
               "RelativeToolTip": "CreateBook.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAhAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-05-05T11:32:13.276Z",
               "EditorCaption": ""

@@ -1,9 +1,12 @@
 using Microsoft.Maui.Media;
+using P_Passion_Lecture.ViewModels;
 
 namespace P_Passion_Lecture;
 
 public partial class CreateBook : ContentPage
 {
+    private CrudViewModel ViewModel => (CrudViewModel)BindingContext;
+
 
     public CreateBook()
     {
@@ -20,6 +23,9 @@ public partial class CreateBook : ContentPage
             {
                 var stream = await result.OpenReadAsync();
                 myImage.Source = ImageSource.FromStream(() => stream);
+
+                // Salva o caminho da imagem no ViewModel
+                ViewModel.ImageURLEntry = result.FullPath;
             }
         }
         catch (Exception ex)
@@ -31,7 +37,12 @@ public partial class CreateBook : ContentPage
     private void OnRemoveImageClicked(object sender, EventArgs e)
     {
         myImage.Source = null;
+
+        // Também apaga o caminho da imagem do ViewModel
+        ViewModel.ImageURLEntry = string.Empty;
     }
+
+
 
 
 }

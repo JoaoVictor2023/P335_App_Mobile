@@ -23,8 +23,8 @@
             <Entry Placeholder="Editeur" Text="{Binding EditeurEntry}" />
             <Entry Placeholder="Resume" Text="{Binding ResumeEntry}" />
             <Entry Placeholder="Extrait" Text="{Binding ExtraitEntry}" />
-            <Entry Keyboard="Numeric" Text="{Binding AnneeEntry}" />
-            <Entry Keyboard="Numeric" Text="{Binding NbPagesEntry}" />
+            <Entry Placeholder="Annee" Keyboard="Numeric" Text="{Binding AnneeEntry}" />
+            <Entry Placeholder="Nombre Pages" Keyboard="Numeric" Text="{Binding NbPagesEntry}" />
             <Button Margin="0,10,0,20" Text="Choisir image" Clicked="OnPickImageClicked" />
 
 

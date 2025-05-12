@@ -5,7 +5,7 @@
              xmlns:viewModels="clr-namespace:P_Passion_Lecture.ViewModels"
              Title="Liste des livres">
 
-    <!-- Configurando o BindingContext com o ViewModel -->
+
     <ContentPage.BindingContext>
         <viewModels:CrudViewModel />
     </ContentPage.BindingContext>
@@ -20,42 +20,59 @@
         <CollectionView ItemsSource="{Binding Books}">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
-                    <Frame CornerRadius="15"
+                    <SwipeView>
+                        <SwipeView.RightItems>
+                            <SwipeItems Mode="Reveal">
+                                <SwipeItem
+                                   Text="Modifier"
+                                   BackgroundColor="DodgerBlue"
+                                   IconImageSource="edit.png"
+                                   Command="{Binding Source={RelativeSource AncestorType={x:Type viewModels:CrudViewModel}}, Path=EditBookCommand}"
+                                   CommandParameter="{Binding .}" />
+
+                                <SwipeItem
+                                    Text="Supprimer"
+                                    BackgroundColor="Red"
+                                    IconImageSource="delete.png"
+                                    Command="{Binding Source={RelativeSource AncestorType={x:Type viewModels:CrudViewModel}}, Path=DeleteBookCommand}"
+                                    CommandParameter="{Binding .}" />
+                            </SwipeItems>
+                        </SwipeView.RightItems>
+
+                        <Frame CornerRadius="15"
                            Margin="10"
                            BackgroundColor="{StaticResource Black}"
                            BorderColor="{StaticResource White}"
                            HasShadow="True">
-                        <Grid>
-                            <Grid.GestureRecognizers>
-                                <TapGestureRecognizer 
-                                    Command="{Binding Source={RelativeSource AncestorType={x:Type viewModels:CrudViewModel}}, Path=FlipCardCommand}"
-                                    CommandParameter="{Binding .}" />
-                            </Grid.GestureRecognizers>
+                            <VerticalStackLayout Spacing="5">
+                                    
+                                <HorizontalStackLayout>
+                                    <Image Source="{Binding ImageURL}" HeightRequest="100" WidthRequest="100" Aspect="AspectFit"/>
+                                    <Label Text="{Binding Title}" TextColor="White" FontAttributes="Bold" FontSize="20"/>
+                                </HorizontalStackLayout>
+                                <Grid ColumnDefinitions="Auto, *" RowDefinitions="Auto, Auto, Auto, Auto, Auto, Auto, Auto">
+                                    <Label Text="{Binding Categorie, StringFormat='Catégorie: {0}'}" TextColor="Gray" Grid.Row="0" Grid.Column="0" HorizontalOptions="Start"/>
+                                    <Label Text="{Binding Author, StringFormat='Auteur: {0}'}" TextColor="Gray" Grid.Row="0" Grid.Column="1" HorizontalOptions="End"/>
 
-                            <ContentView x:Name="CardView">
-                                <Grid>
-                                    <Label x:Name="FrontText"
-                                           Text="{Binding Title}" 
-                                        FontAttributes="Bold"
-                                           TextColor="White"
-                                           HorizontalOptions="Center"
-                                           VerticalOptions="Center"
-                                           IsVisible="{Binding IsFlipped, Converter={StaticResource InverseBoolConverter}}" />
+                                    <Label Text="{Binding Editeur, StringFormat='Éditeur: {0}'}" TextColor="Gray" Grid.Row="2" Grid.Column="0" HorizontalOptions="Start"/>
+                                    <Label Text="{Binding Annee, StringFormat='Année: {0}'}" TextColor="Gray" Grid.Row="2" Grid.Column="1" HorizontalOptions="End"/>
 
-                                        <!-- Exibição do verso do cartão (resposta) -->
-                                        <Label x:Name="BackText"
-                                           Text="{Binding Author}"
-                                            TextColor="White"
-                                           HorizontalOptions="Center"
-                                           VerticalOptions="Center"
-                                           IsVisible="{Binding IsFlipped}" />
+                                    <Label Text="{Binding NbPages, StringFormat='Pages: {0}'}" TextColor="Gray" Grid.Row="4" Grid.Column="0" HorizontalOptions="Start"/>
+                                    <Label Text="{Binding Resume, StringFormat='Résumé: {0}'}" TextColor="Gray" Grid.Row="4" Grid.Column="1" HorizontalOptions="End"/>
+
+                                    <Label Text="{Binding Extrait, StringFormat='Extrait: {0}'}" TextColor="Gray" Grid.Row="6" Grid.Column="0" HorizontalOptions="Start"/>
                                 </Grid>
-                            </ContentView>
-                        </Grid>
-                    </Frame>
+
+
+
+                            </VerticalStackLayout>
+                        </Frame>
+                    </SwipeView>
+
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
+
 
     </VerticalStackLayout>
 </ContentPage>

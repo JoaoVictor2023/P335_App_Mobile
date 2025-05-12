@@ -40,5 +40,17 @@
         <member name="P:P_Passion_Lecture.ViewModels.CrudViewModel.AddBookCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:P_Passion_Lecture.ViewModels.CrudViewModel.AddBook"/>.</summary>
         </member>
+        <member name="F:P_Passion_Lecture.ViewModels.CrudViewModel.deleteBookCommand">
+            <summary>The backing field for <see cref="P:P_Passion_Lecture.ViewModels.CrudViewModel.DeleteBookCommand"/>.</summary>
+        </member>
+        <member name="P:P_Passion_Lecture.ViewModels.CrudViewModel.DeleteBookCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:P_Passion_Lecture.ViewModels.CrudViewModel.DeleteBook(P_Passion_Lecture.Models.BookEntry)"/>.</summary>
+        </member>
+        <member name="F:P_Passion_Lecture.ViewModels.CrudViewModel.editBookCommand">
+            <summary>The backing field for <see cref="P:P_Passion_Lecture.ViewModels.CrudViewModel.EditBookCommand"/>.</summary>
+        </member>
+        <member name="P:P_Passion_Lecture.ViewModels.CrudViewModel.EditBookCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:P_Passion_Lecture.ViewModels.CrudViewModel.EditBook(P_Passion_Lecture.Models.BookEntry)"/>.</summary>
+        </member>
     </members>
 </doc>

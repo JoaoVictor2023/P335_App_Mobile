@@ -2094,3 +2094,5 @@ C:\Users\pg05lby\Documents\GitHub\P335_App_Mobile\P_Passion_Lecture\obj\Debug\ne
 C:\Users\pg05lby\Documents\GitHub\P335_App_Mobile\P_Passion_Lecture\obj\Debug\net8.0-android\android\assets\SQLitePCLRaw.core.dll
 C:\Users\pg05lby\Documents\GitHub\P335_App_Mobile\P_Passion_Lecture\obj\Debug\net8.0-android\android\assets\SQLitePCLRaw.lib.e_sqlite3.android.dll
 C:\Users\pg05lby\Documents\GitHub\P335_App_Mobile\P_Passion_Lecture\obj\Debug\net8.0-android\android\assets\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\pg05lby\Documents\GitHub\P335_App_Mobile\P_Passion_Lecture\obj\Debug\net8.0-android\resizetizer\r\drawable\delete.png
+C:\Users\pg05lby\Documents\GitHub\P335_App_Mobile\P_Passion_Lecture\obj\Debug\net8.0-android\resizetizer\r\drawable\edit.png
